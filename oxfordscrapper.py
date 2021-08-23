@@ -2,7 +2,7 @@ import aiohttp as http
 import requests as req
 from bs4 import BeautifulSoup as bs4
 
-digits = [str(i) for i in list(range(51))]
+digits = [str(i) for i in range(51)]
 
 
 class NotFound(Exception):
