@@ -1,4 +1,4 @@
-## Asynchronous and synchronous Oxford dictionary scrapper.
+## Asynchronous and synchronous Oxford dictionary scrapper for Python
 ### Asynchronous
 ```python
 import asyncio
