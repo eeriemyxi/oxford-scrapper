@@ -21,8 +21,7 @@ class Async():
                 content = await response.text()
                 html = bs4(content, 'html.parser')
 
-                entrywrapper = html.find('div',
-                                         attrs={'class': 'entryWrapper'})
+                entrywrapper = html.find('div', attrs={'class': 'entryWrapper'})
 
                 if entrywrapper.find('h2', attrs={'class': 'searchHeading'}):
                     raise NotFound('No definition found.')
